@@ -33,7 +33,7 @@ public class Demoqa {
 		d.findElement(By.xpath("//*[@id=\"hobbiesWrapper\"]/div[2]/div[3]/label")).click();
 		d.findElement(By.id("currentAddress")).sendKeys("943,gandhinagar 3rd street");
 		WebElement pic =d.findElement(By.id("uploadPicture"));
-		pic.sendKeys("C:\\Users\\ADMIN\\Pictures\\");
+		pic.sendKeys("C:\\Users\\ADMIN\\Pictures");
 		WebElement state=d.findElement(By.id("react-select-3-input"));
 		state.sendKeys("Haryana");
 		Actions a=new Actions(d);
